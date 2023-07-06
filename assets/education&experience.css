@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+
+}
+.navbar-custom {
+    border-bottom: .5px solid rgba(255, 255, 255, 0.288);
+  }
+.main-content {
+    background-color: black;
+}
+
+p {
+    color: #b6babf
+}
+
+.main-content {
+    display: flex;
+    max-width: 1320px;
+    margin: auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.left,
+.right {
+    background: #171717;
+    width: 500px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+
+.education,
+.experience {
+    background: #171717;
+    padding: 2rem 17rem 5rem;
+    border-radius: 10px;
+  
+}
+.education{
+    margin-top:4rem;
+}
+
+.experience{
+    margin-bottom:7rem;
+}
+.institution_logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.institution_logo {
+    margin-top: 3rem !important;
+}
+
+.education,
+.experience ul li {
+    color: white;
+    font-size: 18px;
+}
+
+.experience li {
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: .5rem;
+}
+
+h1:before {
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 1px;
+    background-color: white;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 500px;
+    line-height: 30px;
+    padding-top: 1rem;
+}
+
+h3 {
+    color: #A8A8A8;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 21px;
+}
+
+h4 {
+    color: #A8A8A8;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 9px;
+}
+
+h5 {
+    color: #A8A8A8;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+p {
+    color: #A8A8A8;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 21px;
+    margin-top: 1rem;
+}
+
+.image-er {
+    margin-top: .5rem;
+    text-align: center;
+}
+
+/*cv*/
+.cv {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.cv button {
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    background-color: transparent;
+    padding: 1rem 13rem;
+    color: white;
+}
+
+.cv button a {
+    font-size: 18px;
+}
+
+/*education*/
+.left,
+.right ul li {
+    color: white;
+
+    font-size: 18px;
+}
+
+.right li {
+    color: white;
+    font-size: 18px;
+}
+
+span {
+    color: white !important;
+    font-weight: 400 !important;
+}
+
+
+.test_scores h2{
+text-align: center;
+margin: 2rem 0 4rem;
+}
+
+.test_scores h2:before{
+    content: "";
+   width: 80px;
+   height: 1px;
+   background-color: white;
+   bottom: -10px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%) 
+}
+
+.test_scores h3{
+    font-size: 21px;
+    color:white;
+    padding-bottom: .5rem;
+}
+
+.test_scores h4{
+    font-size: 16px;
+    line-height: 1.3rem;
+}

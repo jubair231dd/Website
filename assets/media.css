@@ -1,0 +1,85 @@
+/* start landing page media*/
+@media only screen and (max-width: 1000px) {
+    nav ul li{
+        padding:.5rem .5rem!important;
+    }
+    
+  }
+  @media only screen and (max-width: 792px) {
+    .hero-text h1{
+        font-size:35px;
+        text-shadow: 1px 1px 3px #000;
+    }
+    
+    .hero-text h3{
+font-size: 18px;
+text-shadow: 1px 1px 3px #000;
+    }
+
+  }
+/* end landing page media*/
+
+/* start award & education media*/
+@media only screen and (max-width: 792px) {
+    .education, .experience{
+        padding: 2rem 2rem;
+    }
+    .left,
+    .right {
+      width: 100%;
+      margin-bottom:2rem;
+      padding:2.5rem 2rem;
+      margin:0 1rem; 
+    }
+    ul li {
+        font-size: 16px;;
+    }
+    ul li span{
+        font-size: 16px;;  
+    }
+    h2,h3,h4,p{
+        line-height: 25px;
+    }
+    .main-content{
+        margin-top:4rem;
+        margin-bottom:3rem;
+    }
+    .image{
+        margin-top:1rem;
+    }
+    .cv{
+        padding:1rem;
+    }
+    .cv button{
+        padding: 1rem 4rem;
+    }
+
+    /*top footer media start*/
+    .top-footer .right h4{
+        font-size: 16px;
+        
+    }
+    .top-footer .right h2{
+       line-height: 30px!important;
+        
+    }
+    .top-footer .right{
+        padding-top:1rem;
+    }
+    /*top footer media end*/
+    .main-content h2{
+        font-size:20px;
+
+    }
+  }
+  /*about page media query*/
+  @media only screen and (max-width: 792px) {
+    .about{
+       margin-top: 3rem ;
+       margin-bottom: 3rem ;
+       padding:2.5rem 2em;
+    }
+    h1{
+       font-size: 30px;
+    }
+   }

@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+
+}
+
+.main-content {
+    background-color: black;
+}
+
+p {
+    color: #b6babf
+}
+
+.main-content {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.left,
+.right {
+    background: #171717;
+    width: 500px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: .5rem;
+}
+
+h2 {
+    color: #b6babf;
+    font-size: 25px;
+    font-weight: 500px;
+    line-height: 30px;
+    padding-top: 1rem;
+}
+
+h3 {
+    color: #A8A8A8;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 21px;
+}
+
+h4 {
+    color: #A8A8A8;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 9px;
+}
+
+h5 {
+    color: #A8A8A8;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.right li {
+    color: white;
+    font-size: 18px;
+}
+
+/*award-hero-banner*/
+
+.award-hero-banner {
+    background-image: url(images/award_1.JPG);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+
+.award-image {
+    background-image: url(images/award_1.JPG);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 50%;
+    ;
+}
+
+.award-text {
+    padding: 7rem 6rem;
+}
+
+.award-text h1:before {
+    content: "";
+    position: absolute;
+    width: 10rem;
+    height: 1px;
+    background-color: white;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.award_image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image_1 {
+    width: 50%;
+}
+
+.image_2 {
+    width: 50%;
+}
+
+.image_3 {
+    width: 50%;
+
+}
+
+.image_1 img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.image_2 img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.image_3 img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.honors_content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 7rem;
+    padding-bottom: 7rem;
+}
+
+.honors_content h2 {
+    border: .5px solid rgba(255, 255, 255, 0.205);
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+}
+
+@media only screen and (max-width:792px) {
+    .hero-text h1 {
+        font-size: 30px !important;
+    }
+
+    .award-text h1 {
+        font-size: 18px;
+    }
+
+    .honors_content {
+        padding: 0 1rem;
+    }
+
+    .honors_content h2 {
+        font-size: 16px;
+        padding: 1rem;
+    }
+
+    .award-image {
+        width: 100%;
+    }
+
+    .award-content {
+        width: 100%;
+    }
+
+    .image_1 {
+        width: 100%;
+    }
+
+    .image_2 {
+        width: 100%;
+    }
+
+    .image_3 {
+        width: 100%;
+    }
+}
